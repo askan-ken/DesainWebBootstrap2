@@ -1,0 +1,44 @@
+.desa__footer {
+    background: rgb(36, 35, 35);
+    color: rgb(169, 168, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 300px;
+
+    padding: 2rem 0;
+}
+.desa__footer-alamat {
+    width: 500px;
+}
+.desa__footer-alamat h1 {
+    font-size: 22px;
+}
+.desa__footer-alamat p {
+    font-size: 15px;
+}
+.desa__footer-links {
+    width: 300px;
+}
+.desa__footer-links button {
+    border: none;
+    color: gray;
+    border-radius: 5px;
+    transition: .3s;
+    background: rgb(23, 37, 23);
+}
+.desa__footer-links button:hover {
+    background: rgb(231, 93, 24);
+    color: black;
+}
+.desa__footer-links h1 {
+    font-size: 22px;
+}
+.desa__footer-links p {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 550px){
+    .desa__footer-links{display: none;}
+}

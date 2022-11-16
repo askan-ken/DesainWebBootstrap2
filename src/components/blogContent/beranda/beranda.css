@@ -1,0 +1,30 @@
+.desa__beranda-artikel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desa__beranda-artikel__corusel {
+    width: 50%;
+    height: 50%;
+}
+.artikel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+@media screen and (max-width:550px) {
+    .desa__beranda-artikel__corusel{
+        width: 550px;
+    }
+    .desa__beranda-artikel__content {
+        width: 550px;
+        padding: 0 7.5rem;
+    }
+    .artikel {
+        display: grid;
+        align-content: center;
+        width: 550px;
+    }
+}
